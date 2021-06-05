@@ -20,7 +20,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button btn = (Button) findViewById(R.id.selanjutnyabtn);
+        btn.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v){
+                Intent i = new Intent(MainActivity.this,CheckActivity.class);
+                startActivity(i);
+            }
+        });
     }
+
 
     final Calendar myCalendar = Calendar.getInstance();
 
@@ -42,7 +53,10 @@ public class MainActivity extends AppCompatActivity {
 
         edittext.setText(sdf.format(myCalendar.getTime()));
     }
+
     };
+
+
 
 
 
