@@ -35,19 +35,23 @@
             android:gravity="center"
             android:layout_marginTop="8dp"></TextView>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:backgroundTint="#16A75C"
             android:background="@drawable/roundbtn"
-            android:id="@+id/mainbutton"
+            android:id="@+id/okbtn"
             android:layout_width="379dp"
             android:layout_height="40dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="44dp"
+            android:textColor="@color/white"
             android:gravity="center"
             android:fontFamily="@font/roboto"
             android:textFontWeight="700"
             android:textSize="14dp"
-            android:text="Ok"></Button>
+            android:text="Ok"
+            android:textAllCaps="false">
+
+        </androidx.appcompat.widget.AppCompatButton>
 
     </LinearLayout>
 

@@ -524,7 +524,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:backgroundTint="#16A75C"
             android:background="@drawable/roundbtn"
-            android:id="@+id/mainbutton"
+            android:id="@+id/selanjutnyabtn"
             android:layout_width="379dp"
             android:layout_height="40dp"
             android:layout_marginLeft="16dp"
